@@ -20,7 +20,7 @@ CREATE TABLE items_data (
   Rating double
 );
 
-LOAD DATA LOCAL INFILE 'C:/Users/tarun/naukri/trainings/data-analysis/sql_project_data_tutorials/BlinkIT Grocery Data.csv'
+LOAD DATA LOCAL INFILE '../BlinkIT Grocery Data.csv'
 INTO TABLE items_data
 FIELDS TERMINATED BY ','
 LINES TERMINATED BY '\r\n'
